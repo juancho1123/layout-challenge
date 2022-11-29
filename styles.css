@@ -51,8 +51,11 @@ nav a {
   padding: 0;
   display: grid;
   grid-template-columns: auto auto;
+  gap: 1px;
 }
 
 .feature {
   width: 200px;
+  float: left;
+  margin: 0 20px 0 0;
 }

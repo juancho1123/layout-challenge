@@ -59,3 +59,16 @@ nav a {
   float: left;
   margin: 0 20px 0 0;
 }
+
+.fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+@media screen and (max-width: 745px) {
+  .grid {
+    grid-template-columns: 100%;
+  }
+}
